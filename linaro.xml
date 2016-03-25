@@ -13,8 +13,6 @@
   <remote name="x86" fetch="git://gitscm.sf.net/gitroot/android-x86/" />
 
   <!-- Linaro Device Configs -->
-  <project path="device/linaro/hikey" name="android_device_linaro_hikey" revision="marshmallow-dev" remote="github" groups="device,hikey" />
-  <project path="device/linaro/build" name="device/linaro/common" revision="linaro-marshmallow" remote="linaro-android" groups="default" />
 
   <project path="device/linaro/generic" name="generic_device" revision="master" remote="robh" groups="default" />
 
