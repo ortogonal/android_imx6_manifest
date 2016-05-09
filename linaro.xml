@@ -35,4 +35,6 @@
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <project path="external/libdrm" name="mesa/drm" revision="master" remote="freedesktop" groups="default" />
 
+  <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="master" remote="robh" groups="default" />
+
 </manifest>
