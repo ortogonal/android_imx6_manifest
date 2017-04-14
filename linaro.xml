@@ -17,9 +17,10 @@
   <remote name="padovan" fetch="git://git.collabora.com/git/user/padovan/" />
   <remote name="freedreno" fetch="https://github.com/freedreno/" />
   <remote name="tomeu" fetch="git://git.collabora.com/git/user/tomeu/" />
+  <remote name="tomeu_gh" fetch="https://github.com/tomeuv/" />
 
   <!-- Linaro Device Configs -->
-  <project path="device/linaro/generic" name="generic_device" revision="master" remote="robh" groups="default" />
+  <project path="device/linaro/generic" name="generic_device" revision="etnaviv" remote="tomeu_gh" groups="default" />
 
   <project path="kernel/linaro/hisilicon" name="linux" revision="android-hikey-linaro-4.1" remote="github" groups="default" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" revision="marshmallow-dev" remote="github" groups="device,hikey" />
