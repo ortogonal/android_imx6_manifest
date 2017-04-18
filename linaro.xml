@@ -18,6 +18,8 @@
   <remote name="freedreno" fetch="https://github.com/freedreno/" />
   <remote name="tomeu" fetch="git://git.collabora.com/git/user/tomeu/" />
   <remote name="tomeu_gh" fetch="https://github.com/tomeuv/" />
+  <remote name="ivyl" fetch="https://github.com/ivyl/" />
+  <remote name="android-ia" fetch="https://github.com/android-ia/" />
 
   <!-- Linaro Device Configs -->
   <project path="device/linaro/generic" name="generic_device" revision="etnaviv" remote="tomeu_gh" groups="default" />
@@ -41,6 +43,11 @@
   <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" revision="android-etnaviv" remote="tomeu" groups="default" />
 
   <project path="external/kmscube" name="kmscube.git" revision="android-etnaviv" remote="tomeu" groups="default" />
+
+  <project path="external/igt" name="igt" revision="android" remote="ivyl"/>
+  <project path="external/libkmod" name="libkmod-android" remote="ivyl"/>
+  <project path="external/libkmod/kmod" name="platform/external/kmod" />
+  <project path="external/libpciaccess" name="external_libpciaccess" remote="android-ia"/>
 
 <!--
   <remove-project path="system/core" name="platform/system/core" />
