@@ -34,8 +34,6 @@
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mesa3d" name="mesa.git" revision="android-etnaviv" remote="tomeu" groups="default" />
 
-  <project path="external/libpciaccess" name="external_libpciaccess" remote="x86" revision="marshmallow-x86" />
-
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <project path="external/libdrm" name="drm.git" revision="android-etnaviv" remote="tomeu" groups="default" />
 
