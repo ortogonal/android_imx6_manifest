@@ -13,11 +13,11 @@
   <remote name="x86" fetch="https://git.code.sf.net/p/android-x86" />
 <!--  <remote name="x86" fetch="git://gitscm.sf.net/gitroot/android-x86/" /> -->
 <!--  <remote name="x86" fetch="https://github.com/android-x86-mirror/" /> -->
-  <remote name="robertfoss" fetch="git://git.collabora.com/git/user/robertfoss/" />
-  <remote name="padovan" fetch="git://git.collabora.com/git/user/padovan/" />
-  <remote name="freedreno" fetch="https://github.com/freedreno/" />
-  <remote name="tomeu" fetch="git://git.collabora.com/git/user/tomeu/" />
+  <remote name="robertfoss" fetch="https://git.collabora.com/git/user/robertfoss/" />
+  <remote name="padovan" fetch="https://git.collabora.com/git/user/padovan/" />
+  <remote name="tomeu" fetch="https://git.collabora.com/git/user/tomeu/" />
   <remote name="tomeu_gh" fetch="https://github.com/tomeuv/" />
+  <remote name="freedreno" fetch="https://github.com/freedreno/" />
   <remote name="ivyl" fetch="https://github.com/ivyl/" />
   <remote name="android-ia" fetch="https://github.com/android-ia/" />
 
