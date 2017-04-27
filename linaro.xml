@@ -22,8 +22,6 @@
   <remote name="android-ia" fetch="https://github.com/android-ia/" />
 
   <!-- Linaro Device Configs -->
-  <project path="device/linaro/generic" name="generic_device" revision="etnaviv" remote="tomeu_gh" groups="default" />
-
   <project path="kernel/linaro/hisilicon" name="linux" revision="android-hikey-linaro-4.1" remote="github" groups="default" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" revision="marshmallow-dev" remote="github" groups="device,hikey" />
   <project path="packages/apps/UsbSpeedSwitch" name="android_packages_apps_UsbSpeedSwitch" revision="master" remote="github" groups="device,hikey" />
@@ -35,6 +33,8 @@
   <project path="external/mesa3d" name="mesa.git" revision="android-etnaviv" remote="tomeu" groups="default" />
 
   <project path="external/libpciaccess" name="external_libpciaccess" remote="x86" revision="marshmallow-x86" />
+  
+  <project path="device/linaro/generic" name="android-device-linaro-generic.git" revision="android-etnaviv" remote="robertfoss" groups="default" />
 
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <project path="external/libdrm" name="drm.git" revision="android-etnaviv" remote="tomeu" groups="default" />
