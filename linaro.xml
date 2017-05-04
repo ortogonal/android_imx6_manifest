@@ -20,6 +20,7 @@
   <remote name="freedreno" fetch="https://github.com/freedreno/" />
   <remote name="ivyl" fetch="https://github.com/ivyl/" />
   <remote name="android-ia" fetch="https://github.com/android-ia/" />
+  <remote name="aleksander" fetch="https://github.com/aleksander0m/" />
 
   <!-- Linaro Device Configs -->
   <project path="kernel/linaro/hisilicon" name="linux" revision="android-hikey-linaro-4.1" remote="github" groups="default" />
@@ -57,6 +58,9 @@
   <project path="system/core" name="android-system-core.git" revision="android-etnaviv" remote="robertfoss" groups="default" />
 
   <project path="external/kmscube" name="kmscube.git" revision="android-etnaviv" remote="tomeu" groups="default" />
+
+  <project path="external/apitrace" name="apitrace.git" remote="aleksander" groups="default" revision="aosp" />
+
 <!--
   <remove-project path="system/core" name="platform/system/core" />
   <project path="system/core" name="android-system-core.git" revision="tmp" remote="robertfoss" groups="default" />
